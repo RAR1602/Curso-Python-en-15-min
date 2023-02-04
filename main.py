@@ -1,7 +1,5 @@
 print("Hola mundo soy Roberto Abalo.")
 print("Estos son mis primeros pasos en Python.")
-
-
 #Comentario de código
 print("A ver hasta donde llego.")
 
@@ -10,6 +8,9 @@ print("A ver hasta donde llego.")
 Esto tambien es un comentario de código.
 """
 
+print("---------------------------------------------------------------------")
+
+#Variables
 texto = "Estoy comenzando en Python."
 nombre = "Roberto"
 apellido1 = "Abalo"
@@ -19,18 +20,22 @@ anho = 2023
 texto2 = "Yo mido"
 
 print (anho)
+print("---------------------------------------------------------------------")
+
 
 #Concatenación
 print("Me llamo" + " " + nombre + " " + apellido1 + " " + apellido2 + ".")
 print(f"{texto2}, {altura} metros de altura en el {str(anho)}.") # El método str te convierte los valores a String
 
+print("---------------------------------------------------------------------")
+
 #Entrada de datos
 correoEletronico = input("¿Cuál es tu correo electronico?\n")
 print("Tu email es: " + correoEletronico)
 
+print("---------------------------------------------------------------------")
 
-
-# Condiciones
+# Condicionales
 
 alturaUsuario = int(input("¿Cuál es tu altura?: "))
 sexoUsuario = input("¿Hombre (H) ó Mujer (M)?")
@@ -47,11 +52,9 @@ elif alturaUsuario <= mediaEspañola:
 else :
     print("Estas justo en la média española")
 
-
+print("---------------------------------------------------------------------")
 
 # Funciones
-
-
 
 def mostrarAltura():
     alturaUsuario = int(input("¿Cuál es tu altura?: "))
@@ -70,6 +73,9 @@ def mostrarAltura():
 
 mostrarAltura()
 mostrarAltura()
+
+print("---------------------------------------------------------------------")
+
 
 numero = int(input("Introduzca un número: "))
 
