@@ -92,6 +92,8 @@ def calculoPar(varNumero):
 
 print(calculoPar(numero))
 
+print("---------------------------------------------------------------------")
+
 personas = ["Roberto", "Mar", "Mysha", "Yara"]
 
 print (personas[2])
